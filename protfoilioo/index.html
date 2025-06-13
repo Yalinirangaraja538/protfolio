@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- Add this before closing </body> -->
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script>
+   emailjs.init("VKpxoV_fwZHRZTzqM");  
+</script>
+
+</head>
+<body>
+
+    
+<!-- HEADER -->
+<header>
+    <div class="logo">
+        <h1>My<span>Portfolio</span></h1>
+    </div>
+    <nav>
+        <ul class="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="dark-mode-toggle" onclick="toggleDarkMode()">
+            <i class="fas fa-moon"></i>
+        </div>
+        <div class="hamburger" onclick="toggleMenu()">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+</header>
+
+
+
+    <!-- HERO SECTION (INTRO) -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Hi, I'm <span class="highlight">Yalini Sathiya Rangaraja</span></h1>
+            <h2 class="dynamic-text"></h2>
+            <p>A passionate MCA graduate specializing in web Development.</p>
+        </div>
+        <div class="hero-image">
+            
+        </div>
+    </section>
+    
+    
+    
+
+
+    <!-- ABOUT ME -->
+    <section id="about">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="C:\Users\YaliniRangaraja\OneDrive\Desktop\protfoilioo\IMG_20250206_170328 (1).jpg" alt="Profile Image">
+                </div>
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>
+                        🚀 Passionate about <span class="highlight">AI, Software Development, and Cloud Computing</span>, 
+                        I specialize in building smart, scalable, and high-performance applications. 
+                        With a strong foundation in cutting-edge technologies, I love turning ideas into reality.
+                    </p>
+                    <p>
+                        💡 Whether it’s developing **AI-powered applications, cloud-based automation, or futuristic web designs**, 
+                        I'm always eager to explore and create. My approach is simple—**innovation, efficiency, and impact**.
+                    </p>
+                    <p> A highly motivated and dedicated Developer with a strong passion for
+                        learning and applying innovative ideas to create impactful solutions.
+                        Eager to contribute to the growth of an organization while advancing
+                        my skills in software development, machine learning, and data
+                        analytics. Seeking an entry-level position to kick start my career and
+                        utilize my academic background in programming and mathematic</p>
+                    <div class="about-buttons">
+                        <a href="Yalini.pdf" class="btn neon-btn">Download Resume</a>
+                        <a href="#contact" class="btn glass-btn">Let's Connect</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    
+    <section id="skills" class="skills-section">
+        <h2 class="section-title">My Skills</h2>
+        <div class="skills-container">
+            <div class="skill-category">
+                <h3>Programming</h3>
+                <ul>
+                    <li>Python</li>
+                    <li>C</li>
+                    <li>C++</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Web Development</h3>
+                <ul>
+                    <li>HTML</li>
+                    <li>CSS</li>
+                    <li>JavaScript</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Tools</h3>
+                <ul>
+                    <li>Git</li>
+                    <li>GitHub</li>
+                    <li>Tableau</li>
+                    <li>VS Code</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Cloud & IoT</h3>
+                <ul>
+                    <li>Basics of Cloud Computing</li>
+                    <li>IoT</li>
+                    <li>Edge ML</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Data Science</h3>
+                <ul>
+                    <li>NumPy</li>
+                    <li>Matplotlib</li>
+                </ul>
+            </div>
+            <div class="skill-category">
+                <h3>Database</h3>
+                <ul>
+                    <li>MySQL</li>
+                    <li>MongoDB</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+        
+<section id="projects" class="projects-section">
+    <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <div class="projects-grid">
+            
+            <div class="project-card">
+                <img src="images/face-recognition.jpg" alt="Face Recognition Attendance">
+                <div class="project-info">
+                    <h3>Face Recognition Attendance System</h3>
+                    <p>AI-powered attendance system using real-time face detection.</p>
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/ai-chatbot.jpg" alt="To-Do List App">
+                <div class="project-info">
+                    <h3>Responsive To-Do List App</h3>
+                    <p>Web-based task manager built with HTML, CSS, and JavaScript. Features include task categorization and responsive design.</p>
+                    
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/virtual-mouse.jpg" alt="Virtual Mouse & Keyboard">
+                <div class="project-info">
+                    <h3>Virtual Mouse & Keyboard</h3>
+                    <p>Control your computer with hand gestures using OpenCV & MediaPipe.</p>
+                    
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/remainder-app.jpg" alt="Remainder App">
+                <div class="project-info">
+                    <h3>Remainder App</h3>
+                    <p>Create, display, and manage remainders with title and time. Users can delete completed or unnecessary remainders.</p>
+                    
+                </div>
+            </div>
+
+            <div class="project-card">
+                <img src="images/leukemia-detection.jpg" alt="HemoDetect Leukemia Detection System">
+                <div class="project-info">
+                    <h3>HemoDetect: Leukemia Detection System</h3>
+                    <p>An AI-powered system for automated detection of leukemia from blood smear images using deep learning and CNN models.</p>
+                    
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+    <!-- CONTACT -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <h2 class="section-title">Get in Touch</h2>
+            <p class="contact-description">Feel free to reach out for collaborations or just a friendly hello!</p>
+            
+            <div class=" contact-form">
+                <form id="contactForm">
+                    <div class="input-group">
+                        <input type="text" id="name" required>
+                        <label for="name">Your Name</label>
+                    </div>
+                    <div class="input-group">
+                        <input type="email" id="email" required>
+                        <label for="email">Your Email</label>
+                    </div>
+                    <div class="input-group">
+                        <textarea id="message" required></textarea>
+                        <label for="message">Your Message</label>
+                    </div>
+                    <button type="submit" class="send-btn">Send Message</button>
+                </form>
+            </div>
+            
+            <div class="contact-info">
+                <a href="mailto:yalinisathiya3@gmail.com" class="contact-item">
+                    <img src="images/email.svg" alt="Email">
+                    <span>yalinisathiya3@gmail.com</span>
+                </a>
+                <a href="https://www.linkedin.com/feed/" class="contact-item">
+                    <img src="images/linkedin.svg" alt="LinkedIn">
+                    <span>Yalini Rangaraja</span>
+                </a>
+                <a href="https://github.com/" class="contact-item">
+                    <img src="images/github.svg" alt="GitHub">
+                    <span>YaliniRangaraja538</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    
+
+<!-- AI Chatbot Button -->
+<div id="chatbot-container">
+    <div id="chat-icon" onclick="toggleChatbot()">💬</div>
+    <div id="chatbox">
+        <div id="chat-header">
+            <h3>AI Chatbot</h3>
+            <button onclick="toggleChatbot()">✖</button>
+        </div>
+        <div id="chat-body"></div>
+        <div id="chat-footer">
+            <input type="text" id="user-input" placeholder="Ask me anything..." onkeypress="handleKeyPress(event)">
+            <button onclick="sendMessage()">➤</button>
+            <button onclick="startVoiceInput()">🎤</button>
+        </div>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+</body>
+</html>
+
